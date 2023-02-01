@@ -5,44 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BarberShop</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
-    <header>
+    <header class="header">
       <nav>
         <a href="#">
           <img src="./images/logo.svg" alt="BarberShop logo" />
           <ul>
-            <li><a href="#">Про нас</a></li>
-            <li><a href="#">Послуги і ціни</a></li>
-            <li><a href="#">Майстри</a></li>
-            <li><a href="#">Контакти</a></li>
+            <li><a class="header-link" href="#">Про нас</a></li>
+            <li><a class="header-link" href="#">Послуги і ціни</a></li>
+            <li><a class="header-link" href="#">Майстри</a></li>
+            <li><a class="header-link" href="#">Контакти</a></li>
           </ul>
         </a>
       </nav>
-      <a href="tel:+380441111111">+38 044 111 11 11</a>
-      <button>онлайн-запис</button>
+      <a class="header-link" href="tel:+380441111111">+38 044 111 11 11</a>
+      <button class="button-light" type="button">онлайн-запис</button>
     </header>
 
     <main>
       <section>
         <ul>
-          <li><a href="#">Instagram</a></li>
-          <li><a href="#">Youtube</a></li>
+          <li><a class="socials-link" href="#">Instagram</a></li>
+          <li><a class="socials-link" href="#">Youtube</a></li>
         </ul>
-        <p>Чоловіча перукарня в Києві</p>
-        <h1>BarberShop</h1>
-        <p>
+        <p class="hero-tagline">Чоловіча перукарня в Києві !!!!</p>
+        <h1 class="hero-title">BarberShop</h1>
+        <p class="hero-text">
           Ми експерти у модних чоловічих стрижках. Працюємо швидко, обережно та
           зі смаком.
         </p>
         <ul>
-          <li><button>Назад</button></li>
-          <li><button>Вперед</button></li>
+          <li><button class="carousel-button" type="button">Назад</button></li>
+          <li><button class="carousel-button" type="button">Вперед</button></li>
         </ul>
       </section>
 
-      <section>
+      <section class="about-section">
         <ul>
           <li>
             <img
@@ -224,6 +225,12 @@
       </section>
     </main>
 
-    <footer></footer>
+    <footer>
+      <p>&copy; Copyright 2023</p>
+      <ul>
+        <li><a class="socials-link" href="#">Instagram</a></li>
+        <li><a class="socials-link" href="#">Youtube</a></li>
+      </ul>
+    </footer>
   </body>
 </html>
